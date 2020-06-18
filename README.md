@@ -1,5 +1,7 @@
 # PERL
-Official code for our TACL'20 paper "PERL: Pivot-based Domain Adaptation for Pre-trained Deep Contextualized Embedding Models" - [https://arxiv.org/abs/2006.09075](https://arxiv.org/abs/2006.09075)
+Official code for our TACL'20 paper "PERL: Pivot-based Domain Adaptation for Pre-trained Deep Contextualized Embedding Models" - [https://arxiv.org/abs/2006.09075](https://arxiv.org/abs/2006.09075). 
+
+
 If you use this code please cite our paper.
  
 PERL is a pivot-based domain adaptation model for text-classification. 

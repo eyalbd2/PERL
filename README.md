@@ -160,9 +160,16 @@ You can ran each step seperately (finetuning, classification) for many setups at
 
 All results of the second step here will be saved under '5-fold-hyper-tune'. You need to calculate mean across folds for each set of hyperparameters and choose the best set.
 
-## (TODO) How to Cite PERL
+## How to Cite PERL
 
 ```
-@inproceedings{
+@article{ben2020perl,
+  title={PERL: Pivot-based Domain Adaptation for Pre-trained Deep Contextualized Embedding Models},
+  author={Ben-David, Eyal and Rabinovitz, Carmel and Reichart, Roi},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={8},
+  pages={504--5221},
+  year={2020},
+  publisher={MIT Press}
 }
 ```

@@ -52,12 +52,10 @@ BATCH_SIZE=32
 CNN_FILTER_SIZE=9
 FOLD_NUM=1
 
-mkdir -p 5-fold-hyper-tune
-mkdir 5-fold-hyper-tune/${MODEL}/
+mkdir -p 5-fold-hyper-tune/${MODEL}/
 
 TEMP_DIR=models/${MODEL}/temp
 mkdir -p ${TEMP_DIR}/
-mkdir -p 5-fold-hyper-tune/${MODEL}/
 
 MODELS_DIR=models/${MODEL}/
 

@@ -46,12 +46,15 @@ Make sure you download both our [data directory](https://github.com/eyalbd2/PERL
 and our [5-fold-data directory](https://github.com/eyalbd2/PERL/tree/master/5-fold_data). Then run the following command to find a set the appropriate set of pivot features.
 
 ```
-This will save a file named '100_bi' in the directoryMODEL=books_to_dvd
+This will save a file named '100_bi' in the directory
+MODEL=books_to_dvd
 SRC_DOMAIN="${MODEL%_to_*}" # split model name according to '_to_' and take the prefix
 TRG_DOMAIN="${MODEL#*_to_}" # split model name according to '_to_' and take the suffix
 
 NUM_PIVOTS=100
 PIV_MN_ST=20
+
+mkdir -p data/pivots/$MODEL
 
 python utils/pivot_selection.py \
 --pivot_num=${NUM_PIVOTS} \

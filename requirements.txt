@@ -28,4 +28,4 @@ threadpoolctl==2.1.0
 torch==1.4.0
 torchvision==0.6.0a0+82fd1c8
 tqdm==4.46.0
-urllib3==1.25.9
+urllib3==1.26.5

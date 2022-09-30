@@ -6,7 +6,7 @@ docutils==0.15.2
 future==0.18.2
 idna==2.9
 jmespath==0.10.0
-joblib==0.15.1
+joblib==1.2.0
 mkl-fft==1.1.0
 mkl-random==1.1.1
 mkl-service==2.3.0
